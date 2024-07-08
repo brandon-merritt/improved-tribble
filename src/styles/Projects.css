@@ -1,0 +1,26 @@
+.projects {
+    background: linear-gradient(90deg, var(--secondary-color), var(--primary-color));
+    padding: 40px 20px;
+    text-align: left;
+  }
+  
+  .projects h2 {
+    font-size: 2rem;
+    color: var(--background-color);
+  }
+  
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project-item {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    border: 2px solid var(--primary-color);
+    color: var(--text-color);
+    font-size: 1rem;
+  }
